@@ -1,7 +1,7 @@
 function move() {
     var currentslide= $('#container DIV.current');
 
-    if ( currentslide.length == 0 ) currentslide= $('#container DIV:last');
+    if ( currentslide.length == 0 ) currentslide = $('#container DIV:last');
 
     var nextslide;
 
