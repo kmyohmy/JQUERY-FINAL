@@ -1,0 +1,35 @@
+.container{
+    width: 100%;
+}
+div{
+    line-height: 2;
+}
+
+.solutions{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.solutions li{
+    background-color:grey;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 5px 5px 0 0 ;
+}
+
+.solutions .current{
+    background: #ededed;
+    border:1px solid blue;
+    border-color: blue;
+    margin:0;
+}
+
+.solution{
+    display: none;
+    background:lightgrey;
+    padding: 15px;
+}
+
+.solution.current{
+    display: inherit;
+}

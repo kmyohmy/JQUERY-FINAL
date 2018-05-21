@@ -1,0 +1,41 @@
+#container {
+    position:relative;
+    height:100%;
+    width: 100%;
+}
+
+#container div {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+    opacity:0.0;
+    background-color: #FFF;
+    width:100%;
+    height:75px;
+}
+
+#container div .current{
+    z-index:10;
+    opacity:1.0;
+    height:75%;
+}
+
+#container div .last-current{
+    z-index:9;
+}
+
+#container div img {
+    display: block;
+    border: 0;
+    margin-bottom: 10px;
+    width:100%;
+    height: 700px;
+
+}
+.tracker{
+    font-size: 2em;
+    width:100%;
+    border:1px solid black;
+    margin-top: 0;
+}
