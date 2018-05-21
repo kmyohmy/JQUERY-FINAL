@@ -9,6 +9,7 @@ div{
     margin: 0px;
     padding: 0px;
     list-style: none;
+    background-color: grey;
 }
 .solutions li{
     background-color:grey;
@@ -18,15 +19,14 @@ div{
 }
 
 .solutions .current{
-    background: #ededed;
-    border:1px solid blue;
-    border-color: blue;
+    background: white;
+
     margin:0;
 }
 
 .solution{
     display: none;
-    background:lightgrey;
+    background:white;
     padding: 15px;
 }
 
